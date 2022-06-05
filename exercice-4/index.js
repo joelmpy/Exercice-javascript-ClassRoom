@@ -1,29 +1,43 @@
-let number1 = 25;
-let number2 = 18;
+let ageMajeur = 18;
 let age;
+let isControlParentalActive;
 const ageInput = document.querySelector("#age");
 const button = document.querySelector("#button");
+var parentalInput = document.querySelector("#parental").checked;
+
+
+// message //
+
 const message = document.querySelector("#message");
 
 function accepter() {
-  message.innerHTML = "Vous etes majeur";
+  message.innerHTML = "Vous etes autorisé a entrer";
 }
 
 function refuser() {
-    message.innerHTML = "Vous etes pas majeur";
+  message.innerHTML = "Vous n'etes pas autorisé a entrer"
 }
 
+
 function onConfirm() {
+   parentalInput = document.querySelector("#parental").checked;
+  console.log(parentalInput)
   age = parseInt(ageInput.value);
+
   if (isNaN(age)) {
     alert("Ceci n'est pas un nombre");
     return;
   }
 
-  if(age < number2){
-      refuser()
-  }else {
-      accepter()
+  isControlParentalActive = parentalInput;
+
+  if (age < ageMajeur && isControlParentalActive) {
+    console.log('refused ', isControlParentalActive)
+    refuser();
+  } else {
+    console.log('acceopter ', isControlParentalActive)
+
+    accepter();
   }
 }
 
