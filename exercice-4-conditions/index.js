@@ -18,6 +18,7 @@ function refuser() {
   message.innerHTML = "Vous n'etes pas autorisé a entrer"
 }
 
+// pour confirmer le tout
 
 function onConfirm() {
    parentalInput = document.querySelector("#parental").checked;
