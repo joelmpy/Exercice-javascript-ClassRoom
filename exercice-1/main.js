@@ -33,9 +33,6 @@ console.log(test += bis)
 console.log(test -= bis)
 console.log(test *= bis)
 
-
-
-
 // cree les const 
 const heure = 24;
 const minute = 60;
