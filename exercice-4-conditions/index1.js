@@ -9,6 +9,18 @@ if(user){
 
 console.log(message);
 
+let nombre1 = 143;
+let nombre2 = 219;
+let texte = ""
+if(nombre1 > nombre2){
+  document.querySelector('#number-1').innerHTML = "bonjour"
+ console.log(texte.innerHTML = "Vous etes pas rentrer") 
+}else{
+  document.querySelector('#number-1').innerHTML = "bonjour a tous"
+  console.log(texte.innerHTML = "Vous etes rentrer")
+}
+
+
 class Utilsateur {
     constructor(name, age, accountLevel){
         this.name = name,
