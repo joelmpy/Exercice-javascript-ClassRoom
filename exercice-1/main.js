@@ -15,6 +15,27 @@ control.innerHTML = `${numberOfSeasons} seasons, ${numberOfEpisodes} episodes pe
 
 // seconde exercice
 
+const integer = 102;
+const float = 13.9;
+let basic = 34;
+let stringified = basic.toString()
+console.log( typeof(stringified));
+console.log(Math.floor(float));
+
+let num = 1.5
+let rounded = Math.floor(num);
+console.log(rounded)
+
+let test = 12;
+let bis = valeur = 5
+
+console.log(test += bis)
+console.log(test -= bis)
+console.log(test *= bis)
+
+
+
+
 // cree les const 
 const heure = 24;
 const minute = 60;
@@ -26,6 +47,7 @@ let hours = document.querySelector("#hours");
 let minutes = document.querySelector("#secondes");
 let secondes = document.querySelector("#minutes");
 
+// l'evenement onClick 
 listenButton.addEventListener("click", () => {
   // cree le calcul
   let days = dayInput.value;
