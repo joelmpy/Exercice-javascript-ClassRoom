@@ -88,3 +88,40 @@ while (seatsLeft > 0 && passengersStillToBoard > 0) {
 }
 
 console.log(passengersBoarded); // imprime 8, car il y a 8 passagers pour 10 sièges
+
+let total = 0;
+let limite = 11;
+
+for (let i = 0; i < limite; i++) {
+  total += i;
+}
+
+// reverse //
+var sentence = "Hello Konexio !";
+var myArray = sentence.split("");
+let result = [];
+
+for (let i = 0; i < myArray.length; i++) {
+  let item = myArray[i];
+  result.unshift(item);
+}
+
+result.join(" ");
+console.log(result.toString());
+
+// Bonus //
+
+let maxCent = 100;
+
+for (let i = 0; i <= maxCent; i++) {
+  if (i % 3 === 0) {
+    console.log("fizz", i);
+  } else if (i % 5 === 0) {
+    console.log("buzz", i);
+  } else if (i % 3 === 0 && i % 5 === 0) {
+    console.log("fizzbuzz", i);
+  } else if (i % 7 !== 0) {
+  } else {
+    console.log("value of i", i);
+  }
+}
