@@ -39,3 +39,45 @@ var newText = document.createTextNode("Ici c'est Paris");
 newDiv.appendChild(newText);
 var currentDiv = document.getElementById("div1");
 document.body.insertBefore(newDiv, currentDiv);
+
+// Array //
+
+let fruits = ["mango", "lemon", "blueberry"];
+
+let ingredients = ["eggs", "milk", "butter"];
+let indexIngredients = ingredients.indexOf("butter")
+
+
+let objects = ["pen", "book", "lamp"];
+objects.unshift("chair");
+objects.shift()
+objects.push("laptop");
+objects.shift()
+
+
+let numbers = [ 4, 10, 8, 12 ,6];
+numbers.sort((a ,b) => a - b );
+
+
+// boucle et reverse //
+
+let total = 0
+let limite = 11
+
+for (let i = 0; i < limite; i++){
+    total += i
+    console.log(total)
+}
+
+// reverse //
+var sentence = "Hello Konexio !";
+var myArray = sentence.split("");
+let result = [];
+
+for (let i = 0; i < myArray.length; i++){
+  let item = myArray[i];
+  result.unshift(item)
+}
+
+result.join(" ")
+console.log(result.toString())
