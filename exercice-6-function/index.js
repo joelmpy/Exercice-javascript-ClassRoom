@@ -1,9 +1,9 @@
-function first (number1, number2) {
-    console.log('la valeur1 >>>>>' , number1)
-    console.log('la valeur2 >>>>>' , number2)
-}
+// function first (number1, number2) {
+//     console.log('la valeur1 >>>>>' , number1)
+//     console.log('la valeur2 >>>>>' , number2)
+// }
 
-first('je suis Joel', 'Je suis Bruno')
+// first('je suis Joel', 'Je suis Bruno')
 
 var classeA = [ {nom: "Marc", moyenne: 16}
             , {nom: "Sonia", moyenne: 8}
@@ -26,18 +26,30 @@ var classeC = [ {nom: "Yanis", moyenne: 12}
             , {nom: "Mbappe", moyenne: 10} 
 ]
 
-function student (eleve){
-  for (let i = 0; i < eleve.length; i++){
-   let eleves = eleve[i]
+// function student (eleve){
+//   for (let i = 0; i < eleve.length; i++){
+//    let eleves = eleve[i]
 
-   if(eleves.moyenne >= 10){
-    console.log('il a la moyenne', eleve[i])
-   }else {
-    console.log('il a pas la moyenne dommage', eleve[i])
-   }
+//    if(eleves.moyenne >= 10){
+//     console.log('il a la moyenne', eleve[i])
+//    }else {
+//     console.log('il a pas la moyenne dommage', eleve[i])
+//    }
+//   }
+// }
+
+// student(classeA)
+// student(classeB)
+// student(classeC)
+
+
+function checkIfEven (num) {
+  if (num % 2 === 0){
+      console.log('il est pair')
+  }else{
+    console.log('il est impair')
   }
 }
 
-student(classeA)
-student(classeB)
-student(classeC)
+checkIfEven(2);
+checkIfEven(5);
