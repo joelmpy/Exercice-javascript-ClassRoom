@@ -58,3 +58,41 @@ numbers.sort((a, b) => a - b);
 
 // boucle et reverse //
 
+var cat = {
+  name: "Garfield",
+  age: 3,
+  isCute: true
+};
+
+if(cat.isCute){
+  console.log("So cute ! ")
+}else {
+  console.log("So ad !!")
+}
+
+let cat2 = {
+  name : "Linus",
+  age : 14, 
+  isCute : false
+}
+
+let cats = [cat2, cat];
+
+console.log(cats[1].age);
+console.log(cats[0].isCute);
+console.log(cat2["isCute"]);
+console.log("cat2 isCute? 3", cats[1].isCute)
+console.log("cat2 isCute? 4", cats[1]["isCute"])
+
+let tableau = ['Rodrigue', 'Rodrigue', 'Joel', 'Anais', 'Jeff', 'Brandon']
+let netableau = [... new Set(tableau)]
+console.log(netableau)
+
+let enfant = ['Rodrigue', 'Joel', 'Anais', 'Jeff', 'Brandon']
+// enfant.forEach(enfants => console.log(enfants))
+
+enfant.map((items) => {
+  console.table(items)
+})
+
+
