@@ -51,7 +51,7 @@ function checkIfEven (num) {
   }else{
     console.log('il est impair')
   }
-// }
+ }
 
 checkIfEven(2);
 checkIfEven(5);
@@ -72,7 +72,7 @@ compare(10,25)
 compare(12, 12)
 
 
-05 - Add Up //
+// 05 - Add Up //
 
 function addUp (num) {
   let sum = 0
@@ -84,7 +84,5 @@ function addUp (num) {
 }
 let result = addUp(12);
 console.log(result)
-
-06 - Time //
 
 
