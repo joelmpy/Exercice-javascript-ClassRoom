@@ -1,9 +1,9 @@
-// function first (number1, number2) {
-//     console.log('la valeur1 >>>>>' , number1)
-//     console.log('la valeur2 >>>>>' , number2)
-// }
+function first (number1, number2) {
+    console.log('la valeur1 >>>>>' , number1)
+    console.log('la valeur2 >>>>>' , number2)
+}
 
-// first('je suis Joel', 'Je suis Bruno')
+first('je suis Joel', 'Je suis Bruno')
 
 var classeA = [
   { nom: "Marc", moyenne: 16 },
@@ -29,50 +29,50 @@ var classeC = [
   { nom: "Mbappe", moyenne: 10 },
 ];
 
-// function student (eleve){
-//   for (let i = 0; i < eleve.length; i++){
-//    let eleves = eleve[i]
+function student (eleve){
+  for (let i = 0; i < eleve.length; i++){
+   let eleves = eleve[i]
 
-//    if(eleves.moyenne >= 10){
-//     console.log('il a la moyenne', eleve[i])
-//    }else {
-//     console.log('il a pas la moyenne dommage', eleve[i])
-//    }
-//   }
+   if(eleves.moyenne >= 10){
+    console.log('il a la moyenne', eleve[i])
+   }else {
+    console.log('il a pas la moyenne dommage', eleve[i])
+   }
+  }
+}
+
+student(classeA)
+student(classeB)
+student(classeC)
+
+function checkIfEven (num) {
+  if (num % 2 === 0){
+      console.log('il est pair')
+  }else{
+    console.log('il est impair')
+  }
 // }
 
-// student(classeA)
-// student(classeB)
-// student(classeC)
+checkIfEven(2);
+checkIfEven(5);
 
-// function checkIfEven (num) {
-//   if (num % 2 === 0){
-//       console.log('il est pair')
-//   }else{
-//     console.log('il est impair')
-//   }
-// // }
+function compare (num1, num2){
+if (num1 > num2){
+  document.querySelector('#nombre').innerHTML = `${num1} est plus grand que ${num2}`
+}else if (num1 < num2){
+  document.querySelector('#nombre2').innerHTML = `${num1} est plus petit que  ${num2}`
+}
+else {
+document.getElementById('egaux').innerHTML = `${num1} et ${num2} sont egaux`
+}
+}
 
-// checkIfEven(2);
-// checkIfEven(5);
-
-// function compare (num1, num2){
-// if (num1 > num2){
-//   document.querySelector('#nombre').innerHTML = `${num1} est plus grand que ${num2}`
-// }else if (num1 < num2){
-//   document.querySelector('#nombre2').innerHTML = `${num1} est plus petit que  ${num2}`
-// }
-// else {
-// document.getElementById('egaux').innerHTML = `${num1} et ${num2} sont egaux`
-// }
-// }
-
-// compare(17, 15)
-// compare(10,25)
-// compare(12, 12)
+compare(17, 15)
+compare(10,25)
+compare(12, 12)
 
 
-// 05 - Add Up //
+05 - Add Up //
 
 function addUp (num) {
   let sum = 0
@@ -85,9 +85,6 @@ function addUp (num) {
 let result = addUp(12);
 console.log(result)
 
-// 06 - Time //
+06 - Time //
 
-function format (num) {
-
-}
 
