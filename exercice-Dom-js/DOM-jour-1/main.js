@@ -1,4 +1,3 @@
-const mainContent = document.getElementById("main-content");
 const important = document.getElementsByClassName("important");
 const article = document.getElementsByTagName("article");
 const liItem = document.querySelector("article ul.important > li");
@@ -14,10 +13,13 @@ newDiv.style.color = "white"
 
 console.log(mainParent)
 
-// exercice //
+// exercice create element//
 
 const newParagraphe = document.createElement('p');
 mainParent.appendChild(newParagraphe);
 newParagraphe.innerHTML = "Mon <strong>grand</strong> contenu"
 newParagraphe.classList.add('important');
 newParagraphe.style.color = 'green'
+
+// exercice evenement //
+
