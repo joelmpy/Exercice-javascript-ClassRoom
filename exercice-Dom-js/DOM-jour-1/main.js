@@ -23,3 +23,31 @@ newParagraphe.style.color = 'green'
 
 // exercice evenement //
 
+let button = document.querySelectorAll('#clock')
+for (let i = 0; i < button.length; i++){
+    let allButton = button[i];
+    allButton.addEventListener('click', function () {
+       allButton.style.display = "none"
+    })
+}
+
+let parent = document.getElementById('parent');
+let child = document.getElementById('child');
+let countParent = document.getElementById('parent-count');
+let countChild = document.getElementById('child-count')
+
+let countP = 0
+let countC = 0
+parent.addEventListener('click', () => {
+   countParent.innerHTML = (countP++) + ""
+})
+
+child.addEventListener('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    countChild.innerHTML = (countC++) + ""
+})
+
+
+
+

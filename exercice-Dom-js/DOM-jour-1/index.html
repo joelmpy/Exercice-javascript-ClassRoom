@@ -11,7 +11,14 @@
 
 <body>
 
-    <article>
+    <article id="parent">
+        <a class="link" id="child" href="#">Cliquez ici</a>
+        <p>Battle d'événement !</p>
+        Parent : <span id="parent-count">0</span>
+        Enfant : <span id="child-count">0</span>
+    </article>
+
+    <article id="source">
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
@@ -31,7 +38,7 @@
             <li>Elément 6</li>
         </ul>
     </article>
-     <p class="important">
+    <p class="important">
         Il n'y a plus d'article
     <ul>
         <li>Elément 10</li>
@@ -41,7 +48,17 @@
     </p>
 
     <div id="main">
+    </div>
 
+    <div class="lien">
+        <button id="clock">x</button>
+    </div>
+    <div class="lien">
+        <button id="clock">x</button>
+    </div>
+
+    <div class="lien">
+        <button id="clock">x</button>
     </div>
 
     <script src="./main.js"></script>
