@@ -15,3 +15,7 @@ article {
     font-style: italic;
   }
   
+  #main {
+    font-weight: bold;
+    color: red;
+  }
