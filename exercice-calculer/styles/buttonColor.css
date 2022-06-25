@@ -1,7 +1,7 @@
-.main {
+#container-color {
     height: 70vh;
     width: 100%;
-    background-color: aqua;
+    background: aqua;
 }
 
 .block-btn {
@@ -20,30 +20,30 @@
     font-size: 2rem;
 }
 
-.block-btn .first-color{
+.block-btn #first-color{
     color: white;
     background-color: black;
 }
 
-.block-btn .first-color:hover {
+.block-btn #first-color:hover {
     background-color: rgb(52, 32, 32);
 }
 
-.block-btn .second-color {
+.block-btn #second-color {
     color: white;
     background-color: blue;
 }
 
-.block-btn .second-color:hover {
+.block-btn #second-color:hover {
     background-color: rgb(49, 66, 143);
 }
 
-.block-btn .end-color {
+.block-btn #end-color {
     color: white;
     background-color: red;
 }
 
-.block-btn .end-color :hover {
+.block-btn #end-color :hover {
     background-color: rgb(76, 34, 34);
 }
 
@@ -64,6 +64,19 @@
     font-weight: bolder;
 }
 
+/* .colorMainBlack {
+    background: #333;
+}
+
+.colorMainBlue{
+    background: blue;
+}
+
+.colorMainRed {
+    background: red;
+}
+
+
 .changeColorBlack {
     color: brown;
 }
@@ -74,7 +87,7 @@
 
 .changeColorRed{
     color: red;
-}
+} */
 
 
 
