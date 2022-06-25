@@ -31,6 +31,8 @@ for (let i = 0; i < button.length; i++) {
   });
 }
 
+// Exercice counter //
+
 let parent = document.getElementById("parent");
 let child = document.getElementById("child");
 let countParent = document.getElementById("parent-count");
@@ -48,6 +50,8 @@ child.addEventListener("click", (e) => {
   countChild.innerHTML = countC++ + "";
 });
 
+// Exercice change //
+
 let selctChange = document.querySelector("#ice-cream");
 
 selctChange.addEventListener("change", (event) => {
@@ -59,3 +63,5 @@ selctChange.addEventListener("change", (event) => {
   }
 
 });
+
+// Exercice 
