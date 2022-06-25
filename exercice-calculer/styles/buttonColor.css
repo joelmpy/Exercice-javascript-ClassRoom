@@ -1,0 +1,80 @@
+.main {
+    height: 70vh;
+    width: 100%;
+    background-color: aqua;
+}
+
+.block-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.block-btn button {
+    padding: 20px;
+    border-radius: 10px;
+    width: 20rem;
+    margin: 20px;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.block-btn .first-color{
+    color: white;
+    background-color: black;
+}
+
+.block-btn .first-color:hover {
+    background-color: rgb(52, 32, 32);
+}
+
+.block-btn .second-color {
+    color: white;
+    background-color: blue;
+}
+
+.block-btn .second-color:hover {
+    background-color: rgb(49, 66, 143);
+}
+
+.block-btn .end-color {
+    color: white;
+    background-color: red;
+}
+
+.block-btn .end-color :hover {
+    background-color: rgb(76, 34, 34);
+}
+
+.texte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.texte-color {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.changeColorBlack {
+    color: brown;
+}
+
+.changeColorBlue {
+    color: blue;
+}
+
+.changeColorRed{
+    color: red;
+}
+
+
+
