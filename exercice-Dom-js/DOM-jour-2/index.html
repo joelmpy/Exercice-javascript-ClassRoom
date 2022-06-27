@@ -15,12 +15,28 @@
             <option>Froid</option>
             <option>Tiede</option>
         </select>
-        <div class="result">
+        <div class="resultat">
 
         </div>
 
         <input type="text" id="input">
         <p id="lettre"></p>
+    </div>
+
+    <form>
+        <input type="text" placeholder="nom" id="name">
+        <select id="gender">
+            <option>Choisissez une valeur</option>
+            <option value="Homme">Homme</option>
+            <option value="Femme">Femme</option>
+            <option value="Other">Autre</option>
+        </select>
+    </form>
+
+    <div id="result">
+        Nom : <span id="res-name"></span><br>
+        Genre : <span id="res-gender"></span><br>
+        Souris : (<span id="mouse-x"></span>, <span id="mouse-y"></span>)
     </div>
 
     <script src="./main.js"></script>
